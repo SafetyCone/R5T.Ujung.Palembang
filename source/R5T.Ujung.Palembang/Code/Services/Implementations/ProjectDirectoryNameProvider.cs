@@ -6,7 +6,7 @@ using R5T.Palembang;
 namespace R5T.Ujung.Palembang
 {
     /// <summary>
-    /// The default <see cref="IProjectDirectoryNameProvider"/> implementation using the <see cref="IProjectNameProvider"/> service and presumes that the project directory name is the same as the project name.
+    /// A <see cref="IProjectDirectoryNameProvider"/> implementation using the <see cref="IProjectNameProvider"/> service that presumes that the project directory name is the same as the project name.
     /// </summary>
     public class ProjectDirectoryNameProvider : IProjectDirectoryNameProvider
     {
